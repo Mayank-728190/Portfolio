@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="timeline.css">
+    <style>
+        .box {
+            width: 300px;
+            padding: 20px;
+            background-color: #00b2d5;
+            border: 1px solid #370085;
+            margin-bottom: 20px;
+            overflow: hidden; /* Hide overflow content */
+        }
+        
+        .view-more-button {
+            cursor: pointer;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="timeline">
+        <div class="container left">
+            <div class="content">
+                <div class="box">
+                    <p><h2>2020</h2></p>
+                    <p><h3>Class 10:-</h3></p>
+                    <div id="moreContent1" style="display: none;">
+                        <p><h3><b>School:-</b> Adharsheela Global School</h3></p>
+                        <p><h4>Percentage: 89.8%</h4></p>
+                        <p><h4>Participated in Google Competition and won the first prize.</h4></p>
+                        <p><h4>Learned HTML</h4></p>
+                    </div>
+                    <div class="view-more-button" onclick="toggleContent('moreContent1')">View More</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline">
+        <div class="container right">
+            <div class="content">
+                <div class="box">
+                    <p><h2>2022</h2></p>
+                    <p><h3>Class 12:-</h3></p>
+                    <div id="moreContent2" style="display: none;">
+                        <p><h3><b>School:-</b> Adharsheela Global School</h3></p>
+                        <p><h4>Percentage: 84.8%</h4></p>
+                        <p><h4>Learned Basics of Python</h4></p>
+                    </div>
+                    <div class="view-more-button" onclick="toggleContent('moreContent2')">View More</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline">
+        <div class="container left">
+            <div class="content">
+                <div class="box">
+                    <p><h2>2023</h2></p>
+                    <p><h3>Drop year</h3></p>
+                    <div id="moreContent3" style="display: none;">
+                        <p><h3><b>Cleared NDA written Exam.</b></h3></p>
+                        <p><h3>Also Cleared technical Entry in Indian Navy.</h3></p>
+                    </div>
+                    <div class="view-more-button" onclick="toggleContent('moreContent3')">View More</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline">
+        <div class="container right">
+            <div class="content">
+                <div class="box">
+                    <p><h2>2024</h2></p>
+                    <p><h3>Starting Of College Life</h3></p>
+                    <div id="moreContent4" style="display: none;">
+                        <p><h3><b>Learned C programming Language.</b></h3></p>
+                        <p><h3>Learned Python Language</h3></p>
+                        <p><h3>Participated in 1st Hackathon organized by Delhi Police</h3></p>
+                        <p><h3>Learned CSS, JS</h3></p>
+                        <p><h3>Worked On Many projects like Face Sync (using OpenCV), Women Empowerment and Email-Spam Detector.</h3></p>
+                    </div>
+                    <div class="view-more-button" onclick="toggleContent('moreContent4')">View More</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline">
+        <div class="container left">
+            <div class="content">
+                <div class="box">
+                    <p><h2>2025</h2></p>
+                    <p><h3>Learning Phase Of College Life</h3></p>
+                    <div id="moreContent5" style="display: none;">
+                        <p><h3><b>Learned C++ programming Language.</b></h3></p>
+                        <p><h3>Learning DSA</h3></p>
+                        <p><h3>Working on Full Stack Development</h3></p>
+                        <p><h3>Made this Portfolio</h3></p>
+                        <p><h3>Working on multiple projects.</h3></p>
+                    </div>
+                    <div class="view-more-button" onclick="toggleContent('moreContent5')">View More</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline">
+        <div class="container right">
+            <div class="content">
+                <div class="box">
+                    <p><h2>Future Goals</h2></p>
+                    <p><h3>Final Phase of my college life</h3></p>
+                    <div id="moreContent6" style="display: none;">
+                        <p><h3><b>Get Placement</b></h3></p>
+                        <p><h3>Learned DSA</h3></p>
+                        <p><h3>Worked on Full Stack Development</h3></p>
+                        <p><h3>Update this Portfolio</h3></p>
+                        <p><h3>Working on multiple projects.</h3></p>
+                    </div>
+                    <div class="view-more-button" onclick="toggleContent('moreContent6')">View More</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleContent(contentId) {
+            var moreContent = document.getElementById(contentId);
+            var button = moreContent.nextElementSibling; // Assumes the button is right after the moreContent div
+            
+            if (moreContent.style.display === "none") {
+                moreContent.style.display = "block";
+                button.textContent = "View Less";
+            } else {
+                moreContent.style.display = "none";
+                button.textContent = "View More";
+            }
+        }
+    </script>
+</body>
+</html>
