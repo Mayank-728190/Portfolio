@@ -1,3 +1,34 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile-photo",
+      "description": "A professional headshot of Mayank.",
+      "imageUrl": "https://images.unsplash.com/photo-1629425733761-caae3b5f2e50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3Njc5MDQyODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "ambulance-detection",
+      "description": "Ambulance Detection & Smart Signal Preemption project image",
+      "imageUrl": "https://images.unsplash.com/photo-1677667402044-a1e5f5956124?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaXR5JTIwdHJhZmZpY3xlbnwwfHx8fDE3Njc4ODIwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city traffic"
+    },
+    {
+      "id": "pandemic-prediction",
+      "description": "Pandemic Prediction System project image",
+      "imageUrl": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkYXRhJTIwZ3JhcGh8ZW58MHx8fHwxNzY3ODkxODYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data graph"
+    },
+    {
+      "id": "drive-thru-ai",
+      "description": "Drive-Thru AI Assistant project image",
+      "imageUrl": "https://images.unsplash.com/photo-1672099260380-4ba66eead8ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmYXN0JTIwZm9vZHxlbnwwfHx8fDE3Njc5ODU0MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fast food"
+    },
+    {
+      "id": "slr-regression",
+      "description": "SLR Regression Algorithm project image",
+      "imageUrl": "https://images.unsplash.com/photo-1758685734640-5a539c096aed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYXRoJTIwZm9ybXVsYXN8ZW58MHx8fHwxNzY3OTM1OTcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "math formulas"
+    }
+  ]
 }
