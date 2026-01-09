@@ -30,6 +30,9 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  compiler: {
+    plugins: [['eslint-plugin-react-compiler', {}]],
+  },
 };
 
 export default nextConfig;
